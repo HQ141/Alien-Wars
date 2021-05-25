@@ -1,0 +1,8 @@
+﻿graphics.obj : error LNK2019: unresolved external symbol Direct3DCreate9 referenced in function "public: void __cdecl Graphics::initialize(struct HWND__ *,int,int,bool)" (?initialize@Graphics@@QEAAXPEAUHWND__@@HH_N@Z)
+graphics.obj : error LNK2019: unresolved external symbol D3DXMatrixTransformation2D referenced in function "public: void __cdecl Graphics::drawSprite(struct SpriteData const &,unsigned long)" (?drawSprite@Graphics@@QEAAXAEBUSpriteData@@K@Z)
+graphics.obj : error LNK2019: unresolved external symbol D3DXCreateSprite referenced in function "public: void __cdecl Graphics::initialize(struct HWND__ *,int,int,bool)" (?initialize@Graphics@@QEAAXPEAUHWND__@@HH_N@Z)
+graphics.obj : error LNK2019: unresolved external symbol D3DXGetImageInfoFromFileW referenced in function "public: long __cdecl Graphics::loadTexture(wchar_t const *,unsigned long,unsigned int &,unsigned int &,struct IDirect3DTexture9 * &)" (?loadTexture@Graphics@@QEAAJPEB_WKAEAI1AEAPEAUIDirect3DTexture9@@@Z)
+graphics.obj : error LNK2019: unresolved external symbol D3DXCreateTextureFromFileExW referenced in function "public: long __cdecl Graphics::loadTexture(wchar_t const *,unsigned long,unsigned int &,unsigned int &,struct IDirect3DTexture9 * &)" (?loadTexture@Graphics@@QEAAJPEB_WKAEAI1AEAPEAUIDirect3DTexture9@@@Z)
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3d9.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\USER\Desktop\oop projects\Oop_Project-main\H_Engine\x64\Debug\H_Engine.exe : fatal error LNK1120: 5 unresolved externals
